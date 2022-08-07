@@ -21,13 +21,13 @@ const Header = () => {
           </a>
         </div>
         <div className="header__socials">
-          <a href="http://linkedin.com" target="_blank" rel="noreferrer">
+          <a href="www.linkedin.com/in/mina-s-mikhael" target="_blank" rel="noreferrer">
             <BsLinkedin />
           </a>
-          <a href="http://github.com" target="_blank" rel="noreferrer">
+          <a href="https://github.com/mina-mikhael" target="_blank" rel="noreferrer">
             <BsGithub />
           </a>
-          <a href="http://twitter.com" target="_blank" rel="noreferrer">
+          <a href="https://twitter.com/mina_s_mikhael" target="_blank" rel="noreferrer">
             <BsTwitter />
           </a>
         </div>
