@@ -1,5 +1,6 @@
 {
   "name": "portfolio-with-react",
+  "homepage": "http://mina-mikhael.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

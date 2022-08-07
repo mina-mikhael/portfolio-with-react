@@ -3,7 +3,7 @@ import "./contacts.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { SiMessenger } from "react-icons/si";
 import { BsWhatsapp } from "react-icons/bs";
-import emailjs from "@emailjs-com";
+import emailjs from "emailjs-com";
 
 const Contacts = () => {
   const form = useRef();
@@ -12,6 +12,7 @@ const Contacts = () => {
     e.preventDefault();
 
     emailjs.sendForm("service_d1cy4ac", "template_cawa15e", form.current, "eQ_cWMIS0bHCbKkF6");
+    e.target.reset();
   };
   return (
     <section id="contacts">
@@ -46,16 +47,15 @@ const Contacts = () => {
             </a>
           </article>
         </div>
-        <form ref={form}>
-          <input type="text" name="name" id="name" placeholder="Your Full Name" required />
-          <input type="email" name="email" id="email" placeholder="Your Email" required />
+        <form ref={form} onSubmit={sendEmail}>
+          <input type="text" name="name" placeholder="Your Full Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
           <textarea
             name="message"
-            id="message"
             cols="30"
             rows="7"
             placeholder="Please enter Your Message"></textarea>
-          <button type="submit" className="btn btn-primary" onSubmit={sendEmail}>
+          <button type="submit" className="btn btn-primary">
             Send Message
           </button>
         </form>
