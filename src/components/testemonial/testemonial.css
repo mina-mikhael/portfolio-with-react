@@ -1,5 +1,6 @@
-.testimonials__container {
+.container.testimonials__container {
   width: 40%;
+  padding-bottom: 4rem;
 }
 
 .client__avatar {
@@ -27,17 +28,21 @@
   margin: 0.8rem auto 0;
 }
 
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background-color: var(--color-primary);
+}
+
 /*  ---- media queries ----- */
 /* medium devices */
 @media screen and (max-width: 1024px) {
-  .testimonials__container {
+  .container.testimonials__container {
     width: 60%;
   }
 }
 
 /* small devices */
 @media screen and (max-width: 600px) {
-  .testimonials__container {
+  .container.testimonials__container {
     width: var(--container-width-sm);
   }
   .client__review {
