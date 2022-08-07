@@ -21,7 +21,7 @@ const Header = () => {
           </a>
         </div>
         <div className="header__socials">
-          <a href="www.linkedin.com/in/mina-s-mikhael" target="_blank" rel="noreferrer">
+          <a href="www.linkedin.com/in/mina-s-mikhael" target="_blank">
             <BsLinkedin />
           </a>
           <a href="https://github.com/mina-mikhael" target="_blank" rel="noreferrer">
