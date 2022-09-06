@@ -17,17 +17,20 @@ const Portofolio = () => {
           <div className="portofolio__item-image">
             <img src={img1} alt="project 1" />
           </div>
-          <h3>This is a portofolio item title</h3>
+          <h3> Photo Gallery with SwiperJS</h3>
           <div className="portofolio__item-cta">
-            <a href="https://github.com" className="btn">
+            <a
+              href="https://github.com/mina-mikhael/photo-gallery"
+              className="btn"
+              target="__blank">
               Github
             </a>
             <a
-              href="https://dribble.com/alien_pixels"
+              href="https://photo-gallery-pearl-tau.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary">
-              Live Demo
+              Project Link
             </a>
           </div>
         </article>
@@ -45,7 +48,7 @@ const Portofolio = () => {
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary">
-              Live Demo
+              Project Link
             </a>
           </div>
         </article>
@@ -63,7 +66,7 @@ const Portofolio = () => {
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary">
-              Live Demo
+              Project Link
             </a>
           </div>
         </article>
@@ -81,7 +84,7 @@ const Portofolio = () => {
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary">
-              Live Demo
+              Project Link
             </a>
           </div>
         </article>
@@ -99,7 +102,7 @@ const Portofolio = () => {
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary">
-              Live Demo
+              Project Link
             </a>
           </div>
         </article>
@@ -117,7 +120,7 @@ const Portofolio = () => {
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary">
-              Live Demo
+              Project Link
             </a>
           </div>
         </article>
