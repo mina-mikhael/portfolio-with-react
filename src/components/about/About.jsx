@@ -2,7 +2,6 @@ import React from "react";
 import "./about.css";
 import me from "../../assets/me2.png";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
@@ -22,17 +21,13 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5> Experience</h5>
-              <small>Fresh Graduate</small>
+              <small>BloomTech Institute Graduate</small>
             </article>
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5> Clients</h5>
-              <small>200+ worldwide</small>
-            </article>
+
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5> Projects</h5>
-              <small>80+ completed</small>
+              <small>40+ projects</small>
             </article>
           </div>
           <div className="about__p">
