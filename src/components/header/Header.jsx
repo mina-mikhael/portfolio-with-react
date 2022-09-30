@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import image11 from "../../assets/image11.jpg";
+import resume from "../../assets/mina_mikhael_resume.pdf";
 import me from "../../assets/me.png";
 //icons imports
 import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
@@ -13,8 +13,8 @@ const Header = () => {
         <h1>Mina Mikhael</h1>
         <h5 className="text-light">Fullstack Web Developer</h5>
         <div className="cta">
-          <a href={image11} download className="btn">
-            Download
+          <a href={resume} download className="btn">
+            My Resume
           </a>
           <a href="#contacts" className="btn btn-primary">
             Let's talk
