@@ -69,6 +69,13 @@
   color: var(--color-light);
 }
 
+.about__p {
+  margin: 1rem 0;
+}
+.about__p p {
+  margin: 1rem 0;
+}
+
 /*  ---- media queries ----- */
 /* medium devices */
 @media screen and (max-width: 1024px) {

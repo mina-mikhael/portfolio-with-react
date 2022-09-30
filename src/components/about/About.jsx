@@ -35,14 +35,23 @@ const About = () => {
               <small>80+ completed</small>
             </article>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est in tempora exercitationem,
-            dolor saepe et rerum eius sit ut id placeat distinctio quod praesentium, laudantium
-            deserunt iste! Odio, unde quaerat.
-          </p>
+          <div className="about__p">
+            <p>
+              Hi there! My name is <strong>Mina Mikhael</strong> and I'm a highly motivated
+              Full Stack Web Developer.
+            </p>
+            <p>
+              I build modern web applications using advanced libraries and frameworks such as
+              React.js and Express.
+            </p>
+            <p>
+              Additionally, I have proficiency in building responsive single-page web
+              applications, SQL databases, APIs, and much more. Feel free to check out my
+              recent projects below or connect with me to learn more.
+            </p>
+          </div>
 
           <a href="#contacts" className="btn btn-primary">
-            {" "}
             Let's Talk
           </a>
         </div>

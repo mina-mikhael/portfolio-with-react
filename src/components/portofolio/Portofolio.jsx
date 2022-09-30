@@ -36,15 +36,15 @@ const Portofolio = () => {
         </article>
         <article className="portofolio__item">
           <div className="portofolio__item-image">
-            <img src={img2} alt="project 1" />
+            <img src={img2} alt="weather app" />
           </div>
-          <h3>This is a portofolio item title</h3>
+          <h3>Weather App</h3>
           <div className="portofolio__item-cta">
-            <a href="https://github.com" className="btn">
+            <a href="https://github.com/rpm-team-2022/weather-app" className="btn">
               Github
             </a>
             <a
-              href="https://dribble.com/alien_pixels"
+              href="https://weather-app-rpm.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary">
@@ -56,7 +56,7 @@ const Portofolio = () => {
           <div className="portofolio__item-image">
             <img src={img3} alt="project 1" />
           </div>
-          <h3>This is a portofolio item title</h3>
+          <h3>Future project placeholder</h3>
           <div className="portofolio__item-cta">
             <a href="https://github.com" className="btn">
               Github
@@ -74,7 +74,7 @@ const Portofolio = () => {
           <div className="portofolio__item-image">
             <img src={img4} alt="project 1" />
           </div>
-          <h3>This is a portofolio item title</h3>
+          <h3>Future project placeholder</h3>
           <div className="portofolio__item-cta">
             <a href="https://github.com" className="btn">
               Github
@@ -92,7 +92,7 @@ const Portofolio = () => {
           <div className="portofolio__item-image">
             <img src={img5} alt="project 1" />
           </div>
-          <h3>This is a portofolio item title</h3>
+          <h3>Future project placeholder</h3>
           <div className="portofolio__item-cta">
             <a href="https://github.com" className="btn">
               Github
@@ -110,7 +110,7 @@ const Portofolio = () => {
           <div className="portofolio__item-image">
             <img src={img6} alt="project 1" />
           </div>
-          <h3>This is a portofolio item title</h3>
+          <h3>Future project placeholder</h3>
           <div className="portofolio__item-cta">
             <a href="https://github.com" className="btn">
               Github
