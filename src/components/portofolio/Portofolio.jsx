@@ -2,7 +2,7 @@ import React from "react";
 import "./portofolio.css";
 import img1 from "../../assets/image1.jpg";
 import img2 from "../../assets/image2.jpg";
-import img3 from "../../assets/image3.jpg";
+import img3 from "../../assets/image3.png";
 import img4 from "../../assets/image4.jpg";
 import img5 from "../../assets/image5.jpg";
 import img6 from "../../assets/image6.jpg";
@@ -22,7 +22,8 @@ const Portofolio = () => {
             <a
               href="https://github.com/mina-mikhael/photo-gallery"
               className="btn"
-              target="__blank">
+              target="_blank"
+              rel="noreferrer">
               Github
             </a>
             <a
@@ -40,7 +41,11 @@ const Portofolio = () => {
           </div>
           <h3>Weather App</h3>
           <div className="portofolio__item-cta">
-            <a href="https://github.com/rpm-team-2022/weather-app" className="btn">
+            <a
+              href="https://github.com/rpm-team-2022/weather-app"
+              className="btn"
+              target="_blank"
+              rel="noreferrer">
               Github
             </a>
             <a
@@ -56,13 +61,17 @@ const Portofolio = () => {
           <div className="portofolio__item-image">
             <img src={img3} alt="project 1" />
           </div>
-          <h3>Future project placeholder</h3>
+          <h3>PokeDex Game</h3>
           <div className="portofolio__item-cta">
-            <a href="https://github.com" className="btn">
+            <a
+              href="https://github.com/mina-mikhael/pokemon-simple-game"
+              className="btn"
+              target="_blank"
+              rel="noreferrer">
               Github
             </a>
             <a
-              href="https://dribble.com/alien_pixels"
+              href="https://pokedex-self-seven.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary">
