@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import "./nav.css";
 import { AiOutlineHome, AiOutlineAppstore } from "react-icons/ai";
 import { BiBookBookmark, BiUser, BiMessageSquareDetail } from "react-icons/bi";
-import { GrAppsRounded } from "react-icons/gr";
 
 const Nav = () => {
   const [isActive, setIsActive] = useState("#");
