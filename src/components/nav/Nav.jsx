@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import "./nav.css";
-import { AiOutlineHome } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineAppstore } from "react-icons/ai";
 import { BiBookBookmark, BiUser, BiMessageSquareDetail } from "react-icons/bi";
+import { GrAppsRounded } from "react-icons/gr";
 
 const Nav = () => {
   const [isActive, setIsActive] = useState("#");
@@ -32,6 +33,14 @@ const Nav = () => {
           setIsActive("#experience");
         }}>
         <BiBookBookmark />
+      </a>
+      <a
+        href="#portfolio"
+        className={isActive === "#portfolio" ? "active" : ""}
+        onClick={() => {
+          setIsActive("#portfolio");
+        }}>
+        <AiOutlineAppstore />
       </a>
 
       <a
