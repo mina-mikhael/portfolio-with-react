@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import resume from "../../assets/mina_mikhael_resume.pdf";
+import resume from "../../assets/mina_mikhael_resume1.pdf";
 import me from "../../assets/me.png";
 //icons imports
 import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
@@ -27,10 +27,16 @@ const Header = () => {
             rel="noreferrer">
             <BsLinkedin />
           </a>
-          <a href="https://github.com/mina-mikhael" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/mina-mikhael"
+            target="_blank"
+            rel="noreferrer">
             <BsGithub />
           </a>
-          <a href="https://twitter.com/mina_s_mikhael" target="_blank" rel="noreferrer">
+          <a
+            href="https://twitter.com/mina_s_mikhael"
+            target="_blank"
+            rel="noreferrer">
             <BsTwitter />
           </a>
         </div>
