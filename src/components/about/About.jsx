@@ -22,6 +22,8 @@ const About = () => {
               <FaAward className="about__icon" />
               <h5> Experience</h5>
               <small>BloomTech Institute Graduate</small>
+              <br />
+              <small>Web Developer at Next Ehealth 2022-current</small>
             </article>
 
             <article className="about__card">
