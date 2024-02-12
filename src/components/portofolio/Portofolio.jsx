@@ -3,7 +3,7 @@ import "./portofolio.css";
 import img1 from "../../assets/image1.jpg";
 import img2 from "../../assets/image2.jpg";
 import img3 from "../../assets/image3.png";
-import img4 from "../../assets/image4.jpg";
+import img4 from "../../assets/image4.png";
 import img5 from "../../assets/image5.jpg";
 import img6 from "../../assets/image6.jpg";
 
@@ -83,13 +83,17 @@ const Portofolio = () => {
           <div className="portofolio__item-image">
             <img src={img4} alt="project 1" />
           </div>
-          <h3>Future project placeholder</h3>
+          <h3>Recipe Finder</h3>
           <div className="portofolio__item-cta">
-            <a href="https://github.com" className="btn">
+            <a
+              href="https://github.com/mina-mikhael/recipe_finder"
+              target="_blank"
+              rel="noreferrer"
+              className="btn">
               Github
             </a>
             <a
-              href="https://dribble.com/alien_pixels"
+              href="https://recipe-finder-bay.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary">
