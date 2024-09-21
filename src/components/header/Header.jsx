@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import resume from "../../assets/mina_mikhael_resume1.pdf";
-import me from "../../assets/me.png";
+import me from "../../assets/new_texas.png";
 //icons imports
 import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
 
